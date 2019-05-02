@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.appincuba.yaminute",
+    "sha256_cert_fingerprints":
+    ["7B:FA:B0:0D:AC:7B:97:B6:4D:DA:70:14:E6:EF:7B:F6:7C:27:4D:7E:28:EA:E5:94:DE:F8:E6:67:90:C6:CF:61"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://amiankit11.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.appincuba.yaminute",
+    "sha256_cert_fingerprints":
+    ["7B:FA:B0:0D:AC:7B:97:B6:4D:DA:70:14:E6:EF:7B:F6:7C:27:4D:7E:28:EA:E5:94:DE:F8:E6:67:90:C6:CF:61"]
+  }
+}]
